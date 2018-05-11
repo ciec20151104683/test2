@@ -1,0 +1,9 @@
+D:\C#\test2\test2\bin\Debug\test2.exe
+D:\C#\test2\test2\bin\Debug\test2.pdb
+D:\C#\test2\test2\obj\x86\Debug\test2.FrmLogin.resources
+D:\C#\test2\test2\obj\x86\Debug\test2.Frmmain.resources
+D:\C#\test2\test2\obj\x86\Debug\test2.Properties.Resources.resources
+D:\C#\test2\test2\obj\x86\Debug\StuInformation.csproj.GenerateResource.Cache
+D:\C#\test2\test2\obj\x86\Debug\test2.exe
+D:\C#\test2\test2\obj\x86\Debug\test2.pdb
+D:\C#\test2\test2\obj\x86\Debug\test2.FrmInfor.resources

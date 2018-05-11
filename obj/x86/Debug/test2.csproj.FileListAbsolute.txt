@@ -1,0 +1,24 @@
+D:\vs2010 project\test2\test2\bin\Debug\test2.exe
+D:\vs2010 project\test2\test2\bin\Debug\test2.pdb
+D:\vs2010 project\test2\test2\obj\x86\Debug\test2.FrmLogin.resources
+D:\vs2010 project\test2\test2\obj\x86\Debug\test2.Frmmain.resources
+D:\vs2010 project\test2\test2\obj\x86\Debug\test2.Properties.Resources.resources
+D:\vs2010 project\test2\test2\obj\x86\Debug\test2.csproj.GenerateResource.Cache
+D:\vs2010 project\test2\test2\obj\x86\Debug\test2.exe
+D:\vs2010 project\test2\test2\obj\x86\Debug\test2.pdb
+D:\vs2010 project\test2\test2\obj\x86\Debug\test2.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\test2\test2\obj\x86\Debug\test2.exe
+C:\Users\Administrator\Desktop\test2\test2\obj\x86\Debug\test2.pdb
+C:\Users\Administrator\Desktop\test2\test2\obj\x86\Debug\test2.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\test2\test2\obj\x86\Debug\test2.FrmLogin.resources
+C:\Users\Administrator\Desktop\test2\test2\obj\x86\Debug\test2.Frmmain.resources
+C:\Users\Administrator\Desktop\test2\test2\obj\x86\Debug\test2.csproj.GenerateResource.Cache
+D:\C#\test2\test2\obj\x86\Debug\test2.exe
+D:\C#\test2\test2\obj\x86\Debug\test2.pdb
+D:\C#\test2\test2\obj\x86\Debug\test2.csprojResolveAssemblyReference.cache
+D:\C#\test2\test2\obj\x86\Debug\test2.FrmLogin.resources
+D:\C#\test2\test2\obj\x86\Debug\test2.Frmmain.resources
+D:\C#\test2\test2\obj\x86\Debug\test2.csproj.GenerateResource.Cache
+D:\C#\test2\test2\bin\Debug\test2.exe
+D:\C#\test2\test2\bin\Debug\test2.pdb
+D:\C#\test2\test2\obj\x86\Debug\test2.Properties.Resources.resources
