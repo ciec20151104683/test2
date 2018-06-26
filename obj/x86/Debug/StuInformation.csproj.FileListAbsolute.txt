@@ -7,3 +7,14 @@ D:\C#\test2\test2\obj\x86\Debug\StuInformation.csproj.GenerateResource.Cache
 D:\C#\test2\test2\obj\x86\Debug\test2.exe
 D:\C#\test2\test2\obj\x86\Debug\test2.pdb
 D:\C#\test2\test2\obj\x86\Debug\test2.FrmInfor.resources
+C:\Users\Administrator\Desktop\test2\test2\obj\x86\Debug\test2.exe
+C:\Users\Administrator\Desktop\test2\test2\obj\x86\Debug\test2.FrmLogin.resources
+C:\Users\Administrator\Desktop\test2\test2\obj\x86\Debug\test2.FrmInfor.resources
+C:\Users\Administrator\Desktop\test2\test2\obj\x86\Debug\test2.Frmstudent.resources
+C:\Users\Administrator\Desktop\test2\test2\obj\x86\Debug\test2.Properties.Resources.resources
+C:\Users\Administrator\Desktop\test2\test2\obj\x86\Debug\StuInformation.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\test2\test2\bin\Debug\test2.exe
+C:\Users\Administrator\Desktop\test2\test2\bin\Debug\test2.pdb
+C:\Users\Administrator\Desktop\test2\test2\obj\x86\Debug\test2.Frmadmincs.resources
+C:\Users\Administrator\Desktop\test2\test2\obj\x86\Debug\test2.Frmteacher.resources
+C:\Users\Administrator\Desktop\test2\test2\obj\x86\Debug\test2.pdb

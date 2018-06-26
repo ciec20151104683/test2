@@ -15,7 +15,7 @@ namespace test2
         {
             InitializeComponent();
         }
-
+        public static DataTable dt = new DataTable();
         private void btnADD_Click(object sender, EventArgs e)
         {
             DataTable dt = new DataTable();
@@ -46,7 +46,7 @@ namespace test2
             dr["colDuty"] = txtDuty.Text;
 
             dt.Rows.Add(dr);
-            dgvInfo.DataSource = dt;
+            dataGridView1.DataSource = dt;
 
         }
     }

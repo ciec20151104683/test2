@@ -9,14 +9,14 @@ using System.Windows.Forms;
 
 namespace test2
 {
-    public partial class Frmmain : Form
+    public partial class Frmstudent : Form
     {
         String str = "";
-        public Frmmain()
+        public Frmstudent()
         {
             InitializeComponent();
         }
-        public Frmmain(String _str)
+        public Frmstudent(String _str)
         {
             str = _str;
             InitializeComponent();
@@ -106,6 +106,9 @@ namespace test2
             }
         }
 
+        
+
+       
        
 
 

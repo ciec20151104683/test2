@@ -1,6 +1,6 @@
 ﻿namespace test2
 {
-    partial class Frmmain
+    partial class Frmstudent
     {
         /// <summary>
         /// Required designer variable.
@@ -28,20 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("张三");
-            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("李四");
-            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("一班", new System.Windows.Forms.TreeNode[] {
-            treeNode19,
-            treeNode20});
-            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("王五");
-            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("赵七");
-            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("二班", new System.Windows.Forms.TreeNode[] {
-            treeNode22,
-            treeNode23});
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.lbuser = new System.Windows.Forms.Label();
+            this.btnlist = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.treeView1 = new System.Windows.Forms.TreeView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.pictureBox = new System.Windows.Forms.PictureBox();
             this.label15 = new System.Windows.Forms.Label();
@@ -57,16 +47,17 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
             this.button1 = new System.Windows.Forms.Button();
-            this.btnlist = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.treeView1 = new System.Windows.Forms.TreeView();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
-            this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabControl1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -92,6 +83,16 @@
             this.lbuser.TabIndex = 2;
             this.lbuser.Click += new System.EventHandler(this.lbuser_Click);
             // 
+            // btnlist
+            // 
+            this.btnlist.Location = new System.Drawing.Point(651, 25);
+            this.btnlist.Name = "btnlist";
+            this.btnlist.Size = new System.Drawing.Size(120, 41);
+            this.btnlist.TabIndex = 1;
+            this.btnlist.Text = "加载列表";
+            this.btnlist.UseVisualStyleBackColor = true;
+            this.btnlist.Click += new System.EventHandler(this.btnlist_Click);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -101,30 +102,6 @@
             this.label1.Size = new System.Drawing.Size(171, 22);
             this.label1.TabIndex = 0;
             this.label1.Text = "当前登录用户：";
-            // 
-            // treeView1
-            // 
-            this.treeView1.Location = new System.Drawing.Point(0, 3);
-            this.treeView1.Name = "treeView1";
-            treeNode19.Name = "tree1_1";
-            treeNode19.Text = "张三";
-            treeNode20.Name = "tree1_2";
-            treeNode20.Text = "李四";
-            treeNode21.Name = "tree1";
-            treeNode21.Text = "一班";
-            treeNode22.Name = "tree2_1";
-            treeNode22.Text = "王五";
-            treeNode23.Name = "tree2_2";
-            treeNode23.Text = "赵七";
-            treeNode24.Name = "tree2";
-            treeNode24.Text = "二班";
-            this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode21,
-            treeNode24});
-            this.treeView1.Size = new System.Drawing.Size(202, 301);
-            this.treeView1.TabIndex = 1;
-            this.treeView1.Visible = false;
-            this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
             // 
             // groupBox2
             // 
@@ -271,26 +248,6 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "姓名";
             // 
-            // tabControl1
-            // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Location = new System.Drawing.Point(39, 156);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(210, 332);
-            this.tabControl1.TabIndex = 3;
-            // 
-            // tabPage1
-            // 
-            this.tabPage1.Controls.Add(this.treeView1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(202, 306);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "班级列表";
-            this.tabPage1.UseVisualStyleBackColor = true;
-            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(741, 8);
@@ -301,16 +258,6 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // btnlist
-            // 
-            this.btnlist.Location = new System.Drawing.Point(651, 25);
-            this.btnlist.Name = "btnlist";
-            this.btnlist.Size = new System.Drawing.Size(120, 41);
-            this.btnlist.TabIndex = 1;
-            this.btnlist.Text = "加载列表";
-            this.btnlist.UseVisualStyleBackColor = true;
-            this.btnlist.Click += new System.EventHandler(this.btnlist_Click);
-            // 
             // tabPage3
             // 
             this.tabPage3.Location = new System.Drawing.Point(0, 0);
@@ -319,7 +266,46 @@
             this.tabPage3.TabIndex = 0;
             this.tabPage3.Text = "教师列表";
             // 
-            // Frmmain
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.treeView1);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(202, 306);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "学生信息";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Location = new System.Drawing.Point(39, 156);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(210, 332);
+            this.tabControl1.TabIndex = 3;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(202, 306);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "主要权限";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // treeView1
+            // 
+            this.treeView1.Location = new System.Drawing.Point(6, 3);
+            this.treeView1.Name = "treeView1";
+            this.treeView1.Size = new System.Drawing.Size(173, 293);
+            this.treeView1.TabIndex = 0;
+            this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect_1);
+            // 
+            // Frmstudent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -329,7 +315,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.Name = "Frmmain";
+            this.Name = "Frmstudent";
             this.Text = "学生管理系统";
             this.Load += new System.EventHandler(this.Frmmain_Load);
             this.groupBox1.ResumeLayout(false);
@@ -337,8 +323,8 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
-            this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
+            this.tabControl1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -347,10 +333,7 @@
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TreeView treeView1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.Label lbuser;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label lbaddress;
@@ -369,5 +352,9 @@
         private System.Windows.Forms.PictureBox pictureBox;
         private System.Windows.Forms.Button btnlist;
         private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TreeView treeView1;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage2;
     }
 }

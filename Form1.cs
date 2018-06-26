@@ -20,12 +20,27 @@ namespace test2
      
         private void btnlogin_Click(object sender, EventArgs e)
         {
-            if (txtusername.Text == "admin" && txtpassword.Text == "123456"||txtusername.Text =="test"&&txtpassword.Text =="123456" )
+            if (txtusername.Text == "student" && txtpassword.Text == "123456")
             {
                 string str = txtusername.Text ;
-                Frmmain f1 = new Frmmain(str);
+                Frmstudent f1 = new Frmstudent(str);
                 f1.Show();
             }
+            else if (txtusername.Text == "test" && txtpassword.Text == "123456")
+            {
+                string b = txtusername.Text;
+                Frmadmincs f2 = new Frmadmincs(b);
+                f2.Show();
+                
+            }
+            else if (txtusername.Text == "teacher" && txtpassword.Text == "123456")
+            {
+                string c = txtusername.Text;
+                Frmteacher f3 = new Frmteacher(c);
+                f3.Show();
+
+            }
+
             else
             {
                 MessageBox.Show("用户名密码错误！");
